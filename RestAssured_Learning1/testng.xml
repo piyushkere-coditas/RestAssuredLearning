@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/Coditas-Admin/IdeaProjects/RestAssured_Learning1">
+        <classes>
+<!--            <class name="day1.HttpRequest"/>-->
+<!--            <class name="day2.PostReqTypes"/>-->
+<!--                <class name="day3.CookiesValidation"></class>-->
+<!--                <class name="day5.Authentication"></class>-->
+            <class name="API_Chaining.createUser"></class>
+            <class name="API_Chaining.createOrder"></class>
+            <class name="API_Chaining.getPlacedOrder"></class>
+            <class name="API_Chaining.updateOrder"></class>
+            <class name="API_Chaining.deleteOrder"></class>
+        </classes>
+    </test>
+</suite>
